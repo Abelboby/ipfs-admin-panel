@@ -55,9 +55,7 @@ function App() {
     try {
       // const response = await axios.get('http://localhost:8080/api/reports');
 
-      const baseURL = process.env.IP_ADDR 
-      ? `http://${process.env.IP_ADDR}:8080/api/reports` 
-      : 'http://192.168.4.67:5050/api/reports';
+      const baseURL = 'http://localhost:8080/api/reports';
 
 const response = await axios.get(baseURL);
 setReports(response.data);
