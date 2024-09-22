@@ -55,8 +55,8 @@ function App() {
     try {
       // const response = await axios.get('http://localhost:8080/api/reports');
 
-      // const baseURL = 'http://localhost:8080/api/reports';
-      const baseURL = 'http://192.168.4.67:8080/api/reports';
+      const baseURL = 'http://localhost:8080/api/reports';
+      //const baseURL = 'http://192.168.4.67:8080/api/reports';
 
 
 const response = await axios.get(baseURL);
