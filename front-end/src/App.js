@@ -53,7 +53,7 @@ function App() {
   const fetchReports = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://localhost:5000/api/reports');
+      const response = await axios.get('http://192.168.4.67:5000/api/reports');
       setReports(response.data);
     } catch (error) {
       console.error('Error fetching reports:', error);
