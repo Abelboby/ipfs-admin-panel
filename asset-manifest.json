@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ipfs-admin-panel/static/css/main.afc599e0.css",
-    "main.js": "/ipfs-admin-panel/static/js/main.564b9f8f.js",
+    "main.js": "/ipfs-admin-panel/static/js/main.a8e2480d.js",
     "static/js/453.b3b29214.chunk.js": "/ipfs-admin-panel/static/js/453.b3b29214.chunk.js",
     "index.html": "/ipfs-admin-panel/index.html",
     "main.afc599e0.css.map": "/ipfs-admin-panel/static/css/main.afc599e0.css.map",
-    "main.564b9f8f.js.map": "/ipfs-admin-panel/static/js/main.564b9f8f.js.map",
+    "main.a8e2480d.js.map": "/ipfs-admin-panel/static/js/main.a8e2480d.js.map",
     "453.b3b29214.chunk.js.map": "/ipfs-admin-panel/static/js/453.b3b29214.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afc599e0.css",
-    "static/js/main.564b9f8f.js"
+    "static/js/main.a8e2480d.js"
   ]
 }
