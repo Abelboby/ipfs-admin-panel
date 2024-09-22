@@ -53,8 +53,14 @@ function App() {
   const fetchReports = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://192.168.4.67:8080/api/reports');
-      setReports(response.data);
+      // const response = await axios.get('http://localhost:8080/api/reports');
+
+      const baseURL = process.env.REACT_APP_IP_ADDR 
+      ? `http://${process.env.IP_ADDR}:8080/api/reports` 
+      : 'http://localhost:8080/api/reports';
+
+const response = await axios.get(baseURL);
+setReports(response.data);
     } catch (error) {
       console.error('Error fetching reports:', error);
       toast.error('Failed to fetch reports');
