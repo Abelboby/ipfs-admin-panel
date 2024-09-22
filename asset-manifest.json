@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ipfs-admin-panel/static/css/main.3a99caf8.css",
+    "main.js": "/ipfs-admin-panel/static/js/main.35a37cd4.js",
+    "static/js/453.b3b29214.chunk.js": "/ipfs-admin-panel/static/js/453.b3b29214.chunk.js",
+    "index.html": "/ipfs-admin-panel/index.html",
+    "main.3a99caf8.css.map": "/ipfs-admin-panel/static/css/main.3a99caf8.css.map",
+    "main.35a37cd4.js.map": "/ipfs-admin-panel/static/js/main.35a37cd4.js.map",
+    "453.b3b29214.chunk.js.map": "/ipfs-admin-panel/static/js/453.b3b29214.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a99caf8.css",
+    "static/js/main.35a37cd4.js"
+  ]
+}
