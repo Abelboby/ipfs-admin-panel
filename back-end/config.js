@@ -237,7 +237,7 @@ const contractABI = [
 		"type": "receive"
 	}
 ]
-  const contractAddress = '0x6a21720008e675160741608a848494d6eca98602'; // Replace with your actual contract address
+  const contractAddress = '0x09962a987004c3ab16c5c8d2cb51fdbc035f6aa7'; // Replace with your actual contract address
   
   module.exports = {
     contractABI,
